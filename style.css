@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    background: #D9D9D9;
+    width: 1140px;
+    margin: auto;
+}
+.navbar{
+    width: 85%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 150px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    left: 0;
+    bottom: -10px;
+    position: absolute;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.hero{
+    width: 1140px;
+    display: grid;
+    margin: auto;
+}
+.hero h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;    
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 611px;
+    margin: auto;
+    padding: 13px 0 26px 0px;
+}
+.hero .box {
+    width: 387px;
+    height: 236px;
+    background-image: url(images/f7500932d8161fa8fcd5a6c0fc807890.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid red;
+    text-align: center;
+    margin: auto;
+}
+/* link */
+.news{
+    margin: 40px 40px 0 0;
+}
+.news h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.newsLink{
+        padding: 14px 0px;
+}
+.newsLink h3 a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: none;
+    color: black;
+}
+.newsLink img{
+    width: 69px;
+    height: 42px;
+    rotate: -0.35 deg;
+    display: block;
+    margin: 0;
+}
+.newsLink a{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+}
+.bestPlayer{
+    padding-bottom: 50px;
+}
+button{
+    width: 238px;
+    height: 43px;
+    border-radius: 2px;
+    background: #4D3073;
+    color: white;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.bestPlayer h2{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.bestPlayer h5{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #0028B6;
+}
+/* Best goals Page */
+.goals{
+    margin: 50px 0;
+}
+.goals h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    margin: 40px 0;
+}
+.plyer{
+    margin: 15px 0;
+}
+.plyer h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    margin-bottom: 5px;
+}
+.plyer video{
+    width: 443px;
+    height: 249px; 
+}
+.goals{
+    width: 400px;
+}
+.goals button{
+    width: 93px;
+    height: 30px;
+    background: #AA0DC3;
+    font-size: 11px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+/* Best player’s Bio page */
+
+.Player{
+    padding: 50px 0;
+}
+.Player h1{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    margin: 50px 0;
+}
+.Player img{
+    width: 337px;
+    height: 275px;
+}
+.tableBox{
+
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+table tr th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+table tr td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
